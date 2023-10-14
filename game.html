@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <header>
+        <span id="myscore">0</span>
+        <span> - </span>
+        <span id="comscore">0</span>
+    </header>
+    <div class="container">
+        <div class="sec" id="'player">
+            <h1>you</h1>
+            <div id="insert_image"></div>
+            <div id="'logos">
+                <div id="rock" class="symbol"><img src="./assets/rock-logo.png" alt=""></div>
+                <div id="paper" class="symbol"><img src="./assets/paper-logo.png" alt=""></div>
+                <div id="scissor" class="symbol"><img src="./assets/scissors-logo.png" alt=""></div>
+            </div>
+        </div>
+        <div id="image_middle"> <img src="./assets/vs.png" alt="vscode"></div>
+        <div class="sec" id="computer">
+            <h1>comp</h1>
+            <div id="insert_image1"></div>
+        </div>
+    </div>
+    <footer>
+        <p id="winner"> </p>
+        <button id="button"> Play Again</button>
+    </footer>
+</body>
+</html>
+<script src="app.js"></script>
